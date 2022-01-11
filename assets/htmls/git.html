@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/git.css">
+    <title>Git - Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+        <h1>git - Cheatsheet</h1>
+    </header>
+    <main>
+        <section>
+
+            <ul>
+                <li>
+                    <h2>SETUP & INIT</h2>
+                </li>
+                <li>
+                    <h3>git init</h3>
+                    <p> initialize an existing directory as a Git repository</p>
+                </li>
+                <li>
+                    <h3>git clone [url]
+                    </h3>
+                    <p> retrieve an entire repository from a hosted location via URL</p>
+
+                </li>
+                <li>
+
+                    <h3>git status
+                    </h3>
+                    <p> show modified files in working directory, staged for your next commit</p>
+                </li>
+                <li>
+                    <h3>git add [file]
+                    </h3>
+                    <p>add a file as it looks now to your next commit (stage)</p>
+                </li>
+                <li>
+                    <h3>git commit -m “[descriptive message]”
+                    </h3>
+                    <p>commit your staged content as a new commit snapshot</p>
+                </li>
+            </ul>
+            <!--+++++++++++++++++++++++++++++++++++-->
+            <ul>
+                <li>
+                    <h2>BRANCH & MERGE</h2>
+                </li>
+                <li>
+                    <h3>git branch</h3>
+                    <p>
+                        list your branches. a * will appear next to the currently active branch
+                    </p>
+                </li>
+                <li>
+
+                    <h3>git branch [branch-name]</h3>
+                    <p> create a new branch at the current commit
+                    </p>
+                </li>
+                <li>
+                    <h3>git checkout</h3>
+                    <p>switch to another branch and check it out into your working directory</p>
+                </li>
+                <li>
+                    <h3>git merge [branch]
+                    </h3>
+                    <p> merge the specified branch’s history into the current one</p>
+                </li>
+                <li>
+                    <h3>
+                        git log
+
+                    </h3>
+                    <p>
+                        show all commits in the current branch’s history
+                    </p>
+                </li>
+            </ul>
+            <!--+++++++++++++++++++++++++++++++++++-->
+            <ul>
+                <li>
+                    <h2>SHARE & UPDATE</h2>
+                </li>
+                <li>
+                    <h3>git remote add [alias] [url]</h3>
+                    <p> add a git URL as an alias
+                    </p>
+                </li>
+                <li>
+                    <h3>git fetch [alias]
+                    </h3>
+                    <p>fetch down all the branches from that Git remote
+                    </p>
+                </li>
+                <li>
+                    <h3>git merge [alias]/[branch]
+                    </h3>
+                    <p>Merge a remote branch into your current branch to bring it up to date
+                    </p>
+                </li>
+                <li>
+                    <h3>git push [alias] [branch]
+                    </h3>
+                    <p>Transmit local branch commits to the remote repository branch
+                    </p>
+                </li>
+                <li>
+                    <h3>git pull
+
+                    </h3>
+                    <p>Tfetch and merge any commits from the tracking remote branch
+                    </p>
+                </li>
+            </ul>
+            <!--+++++++++++++++++++++++++++++++++++-->
+
+        </section>
+    </main>
+</body>
+
+</html>

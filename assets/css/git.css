@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+}
+body{
+    /* background-color: #F3EDEB; */
+    background-color: #fbeff7;
+}
+header{
+    color: rgb(195, 85, 157);
+    width: 80%;
+    margin:3% auto;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+h2{
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+h2:hover{
+    text-decoration: underline;
+}  
+h3{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+section{
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    
+} 
+ul{
+    width: 50%;
+    margin:5% auto;
+    border: 1px solid #ccc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, .5);
+}
+ul:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+li:not(:last-child){
+    border-bottom: 1px dotted #ccc;
+}
+ul li:hover{
+    background-color: #f0f0f0;
+}
+p{
+    font-size: 1.2rem;
+    padding: 15px;
+    display: inline-block;
+}
